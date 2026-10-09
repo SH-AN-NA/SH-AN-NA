@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Shoumik Das</title>
+  <desc id="desc">Computer science student, curious problem solver.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101827"/><stop offset=".55" stop-color="#15283a"/><stop offset="1" stop-color="#252047"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#72e0c0"/><stop offset="1" stop-color="#8aa8ff"/>
+    </linearGradient>
+    <radialGradient id="aura"><stop stop-color="#628bff" stop-opacity=".22"/><stop offset="1" stop-color="#628bff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#background)"/>
+  <circle cx="1030" cy="30" r="260" fill="url(#aura)"/>
+  <circle cx="1150" cy="270" r="220" fill="url(#aura)"/>
+  <g fill="none" stroke="#a8c0ff" stroke-opacity=".1">
+    <path d="M680 0v83h55v42h68v155M806 0v44h68v42h55v194M1030 0v54h-40v62h125v74h85M1150 0v62h-42v54h-68v67h-72v97"/>
+    <path d="M670 224h130v-46h64v-48h120M955 280v-39h83v-54h70"/>
+  </g>
+  <g fill="#72e0c0">
+    <circle cx="735" cy="83" r="4"/><circle cx="806" cy="44" r="4"/><circle cx="929" cy="86" r="4"/><circle cx="1030" cy="54" r="4"/><circle cx="1108" cy="116" r="4"/>
+  </g>
+  <g transform="translate(76 65)">
+    <rect width="58" height="58" rx="18" fill="#72e0c0" fill-opacity=".13" stroke="#72e0c0" stroke-opacity=".65"/>
+    <path d="m21 17-14 12 14 12M37 17l14 12-14 12M33 12l-8 34" fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="76" y="177" fill="#f3f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="750" letter-spacing="-1.8">Shoumik Das</text>
+  <text x="80" y="215" fill="#b2c0d7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Computer Science · NITS · Curious problem solver</text>
+  <path d="M80 244h400" stroke="#ffffff" stroke-opacity=".1" stroke-width="2"/>
+  <path d="M80 244h160" stroke="url(#line)" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="d" values="M80 244h90;M80 244h250;M80 244h150;M80 244h90" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="0" cy="244" r="4" fill="#72e0c0">
+    <animate attributeName="cx" values="80;480;80" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
